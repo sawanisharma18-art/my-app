@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ textAlign: "center", padding: "50px" }}>
+      <img
+        src="https://www.propelleraero.com/wp-content/uploads/2023/05/footer-logo.svg"
+        alt="Propeller Aero Logo"
+        style={{ width: "200px" }}
+      />
+
+      <h1>Welcome to Propeller Aero</h1>
+
+      <p>Explore our website</p>
+
+      <a href="https://www.propelleraero.com/ditto/mate/">
+        Visit Ditto Mate
+      </a>
     </div>
   );
 }
